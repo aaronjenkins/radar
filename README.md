@@ -34,7 +34,7 @@ Type=simple
 User=root
 WorkingDirectory=/home/your_user/radar
 
-ExecStart=/usr/bin/python3 //home/your_user/radar.py
+ExecStart=/usr/bin/python3 /home/your_user/radar.py
 
 # Environment variables
 Environment="FR24_API_TOKEN=your_token_here"
