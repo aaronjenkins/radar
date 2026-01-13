@@ -1,4 +1,4 @@
-#Radar 
+# Radar 
 
 ## Local Setup
 
@@ -9,7 +9,12 @@
 5. Set your .env variables
    - FR24_API_TOKEN 
    - MESH_IP
-   - MESH_CHANNEL_INDEX   
+   - MESH_CHANNEL_INDEX
+6. create Python Virtual Environment
+
+```python3 -m venv cradar
+   source cradar/bin/activate  ```
+
 
 ## Linux Service
 
