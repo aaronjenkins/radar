@@ -11,9 +11,14 @@
    - MESH_IP
    - MESH_CHANNEL_INDEX
 6. create Python Virtual Environment
+```
+python3 -m venv radar
+source cradar/bin/activate
+```
+7. install packages
+   - `pip isntall meshtastic`
+   - `pip install fr24sdk`
 
-```python3 -m venv cradar
-   source cradar/bin/activate  ```
 
 
 ## Linux Service
